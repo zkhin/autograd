@@ -1,3 +1,8 @@
+"""
+Simple extensible implementation of automatic gradients in a TensorFlow-like library.
+Part of work to understand Torch library to decouple and simplfy components to use in other languages.
+"""
+
 from typing import List, NamedTuple, Callable, Optional, Union
 import numpy as np
 
